@@ -19,25 +19,6 @@ This site introduces **Jobayer Mahmud – Frontend Developer**, showcasing skill
 
 ---
 
-## 📂 Project Structure
-portfolio/
-│── index.html # Main homepage
-│── src/
-│ ├── about.html # About page
-│ ├── experience.html # Experience page
-│ ├── projects.html # Projects page
-│── assets/
-│ ├── images/
-│ │ ├── bg.png # Background image
-│ │ ├── main.png # Profile image
-│ ├── icons/
-│ │ ├── about.png
-│ │ ├── experience.png
-│ │ ├── projects.png
-
-
----
-
 ## 🛠️ Tech Stack
 - **HTML5**
 - **Tailwind CSS** (via CDN)
