@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Jobayer's Portfolio</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      .font-poppins {
+        font-family: "Poppins", sans-serif;
+      }
+      @keyframes slideUpFadeIn {
+        0% {
+          opacity: 0;
+          transform: translateY(30px);
+        }
+        100% {
+          opacity: 1;
+          transform: translateY(0);
+        }
+      }
+
+      .slide-up-fade-in {
+        animation: slideUpFadeIn 0.8s ease forwards;
+      }
+    </style>
+  </head>
+  <body
+    class="font-poppins m-0 p-0 bg-[url('assets/images/bg.png')] bg-cover bg-center overflow-hidden h-screen flex flex-col"
+  >
+    <div
+      class="p-3 inline-block text-3xl sm:text-4xl tracking-tighter text-[#004369] font-bold transition-transform duration-500 ease-in-out hover:scale-105 hover:skew-y-3 hover:text-yellow-500 cursor-pointer"
+    >
+      <h1>CODE CONTAINER</h1>
+    </div>
+
+    <div class="flex-1 flex items-center justify-center px-4">
+      <div
+        class="flex flex-col lg:flex-row items-center lg:items-center gap-6 lg:gap-10 max-w-6xl w-full"
+      >
+        <div class="flex flex-col gap-6 w-full lg:w-1/2 slide-up-fade-in">
+          <div>
+            <h1>
+              <span
+                class="block sm:inline text-4xl sm:text-6xl lg:text-7xl tracking-tighter text-[#004369] font-bold hover:text-red-700 transition duration-200"
+                >FRONTEND</span
+              >
+              <span
+                class="block sm:inline text-4xl sm:text-3xl tracking-tighter text-[#004369] font-semibold"
+                >DEVELOPER</span
+              >
+            </h1>
+          </div>
+
+          <div
+            class="text-sm sm:text-base lg:text-lg text-[#004369] font-semibold"
+          >
+            <p>
+              👋 Hey, I am
+              <span
+                class="bg-[#004369] rounded-lg font-bold inline-block text-white px-3 py-1 shadow-md hover:bg-red-700 hover:shadow-lg transition duration-200"
+                >JOBAYER</span
+              >
+            </p>
+            <p class="mt-2">
+              I build fast, responsive, and modern websites with clean code — so
+              your business gets speed, style, and performance that converts.
+            </p>
+            <p class="mt-2">
+              Let's build something that performs — not just exists.
+            </p>
+          </div>
+
+          <div>
+            <a
+              href="https://mail.google.com/mail/?view=cm&fs=1&to=Jobayermahmud976@gmail.com"
+              target="_blank"
+              class="text-base sm:text-lg inline-block bg-[#004369] text-white font-bold px-5 py-2 rounded-lg shadow-md hover:bg-red-700 hover:shadow-lg transition duration-200"
+            >
+              Hire Me
+            </a>
+          </div>
+
+          <div class="text-base sm:text-lg font-semibold text-[#004369]">
+            <ul class="cursor-pointer space-y-2">
+              <li
+                class="flex items-center gap-2 hover:text-red-700 transition-all duration-200 hover:scale-105"
+              >
+                <img
+                  src="assets/icons/about.png"
+                  alt="About"
+                  class="w-7 h-7 sm:w-8 sm:h-8"
+                />
+                <a href="src/about.html" class="flex items-center gap-2">
+                  ABOUT</a
+                >
+              </li>
+              <li
+                class="flex items-center gap-2 hover:text-red-700 transition-all duration-200 hover:scale-105"
+              >
+                <img
+                  src="assets/icons/experience.png"
+                  alt="Experience"
+                  class="w-7 h-7 sm:w-8 sm:h-8"
+                />
+
+                <a href="src/experience.html" class="flex items-center gap-2">
+                  EXPERIENCE</a
+                >
+              </li>
+              <li
+                class="flex items-center gap-2 hover:text-red-700 transition-all duration-200 hover:scale-105"
+              >
+                <img
+                  src="assets/icons/projects.png"
+                  alt="Projects"
+                  class="w-7 h-7 sm:w-8 sm:h-8"
+                />
+
+                <a href="src/projects.html" class="flex items-center gap-2">
+                  PROJECTS</a
+                >
+              </li>
+            </ul>
+          </div>
+
+          <div class="flex flex-row space-x-2 text-center">
+            <p
+              class="bg-[#004369] text-white px-3 py-3 font-semibold rounded-xl"
+            >
+              GitHub
+            </p>
+            <p
+              class="bg-[#004369] text-white px-3 py-3 font-semibold rounded-xl"
+            >
+              LinkedIn
+            </p>
+          </div>
+        </div>
+
+        <div class="w-full lg:w-1/2 flex justify-center">
+          <img
+            class="w-2/3 lg:w-full max-w-sm rounded-2xl shadow-lg object-cover"
+            src="assets/images/main.png"
+            alt="Jobayer Mahmud"
+          />
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Projects</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      .font-poppins {
+        font-family: "Poppins", sans-serif;
+      }
+      @keyframes slideUpFadeIn {
+        0% {
+          opacity: 0;
+          transform: translateY(30px);
+        }
+        100% {
+          opacity: 1;
+          transform: translateY(0);
+        }
+      }
+
+      .slide-up-fade-in {
+        animation: slideUpFadeIn 0.8s ease forwards;
+      }
+    </style>
+  </head>
+  <body
+    class="font-poppins m-0 p-0 bg-[url('assets/images/bg.png')] bg-cover bg-center overflow-hidden h-screen flex flex-col"
+  >
+    <div
+      class="p-3  text-3xl sm:text-4xl tracking-tighter text-[#004369] font-bold transition-transform duration-500 ease-in-out hover:scale-105 hover:skew-y-3 hover:text-yellow-500 cursor-pointer"
+    >
+      <h1>CODE CONTAINER</h1>
+    </div>
+
+    
+    <div class="flex-1 flex items-center justify-center px-4">
+      <div
+        class="flex flex-col lg:flex-row items-center lg:items-center gap-6 lg:gap-10 max-w-6xl w-full"
+      >
+        
+        <div class="flex flex-col gap-6 w-full lg:w-1/2 slide-up-fade-in">
+          <div>
+            <h1  class="block sm:inline text-xl sm:text-6xl lg:text-7xl tracking-tighter text-[#004369] font-semibold hover:text-red-700 transition duration-200">
+              
+               
+                >  Projects</span
+              
+            </h1>
+          </div>
+          <div class="flex flex-col">
+            <a class="text-xl font-semibold text-[#004369] hover:text-red-700" href="https://temperature-converter-eta-ten.vercel.app/">📦 Temperature Converter</a>
+            <a class="text-xl font-semibold text-[#004369] hover:text-red-700" href="https://authform-react.vercel.app/">📦 Authform</a>
+            <a class="text-xl font-semibold text-[#004369] hover:text-red-700" href="https://calculator-gray-eight-19.vercel.app/">📦 Calculator</a>
+           
+          </div>
+
+          <div
+            class="text-sm sm:text-base lg:text-lg text-[#004369] font-semibold"
+          >
+            
+            <p class="mt-2">
+             While I’m new to working with clients, I’ve spent my time building real-world projects to sharpen my skills in HTML, CSS, JavaScript, and Tailwind CSS. I treat every project — personal or practice — as if it were for a paying client: focusing on clean code, responsive design, and attention to detail.
+
+I’m eager to bring that same dedication to real collaborations, understanding client needs, and delivering work that’s not just functional, but polished and impactful. Every project I take on is a chance to learn, grow, and provide value.
+
+            </p>
+            
+          </div>
+
+
+   
+         
+        </div>
+       
+        
+      </div>
+    </div>
+  </body>
+</html>
